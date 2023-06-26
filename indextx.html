@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="/style.css">
+    <title>João Victor Ornelas</title>
+    <script src="/script.js"></script>
+    <script src="/darkmode.js"></script>
+    <script src="seemore.js"></script>
+</head>
+
+<!-- Cabeçalho -->
+
+<header id="header">
+    <!-- Logo -->
+    <div>
+        <img id="logo"
+            src="/Logo/logo.png"
+            alt="Logo João Victor Ornelas">
+    </div>
+    <!-- Nav Buttons -->
+    <nav>
+        <button class="button-header">Sobre</button>
+        <button class="button-header">Projetos</button>
+        <button class="button-header">Contato</button>
+        <button class="button-header" onclick="darkmode()">Darkmode</button>
+    </nav>
+</header>
+
+<body>
+
+    <!-- COUNTAINER PRINCIPAL - 01 -->
+    <div id="container-01">
+
+        <div id="content-container-01">
+            <h1 id="text">João Victor Ornelas</h1>
+            <hr class="line-sep-c1">
+            <h2>Desenvolvedor Front End</h2>
+
+            <p>Sou um <span>Programador</span> em busca de constante aprimoramento e    experiências na área. <span>Meu
+            objetivo</span> é <span>desenvolver minhas habilidades</span> em diversas linguagens de programação e áreas,
+            incluindo a <span>Segurança da Informação</span>, para me tornar um profissional completo e
+            preparado para enfrentar os desafios do mercado.</p>
+
+            <!-- BOTOES DE CONTATO E PROJETOS -->
+            <div class="button-container-01">
+                <button>Contato</button>
+                <button>Projetos</button>
+            </div>
+        </div>
+
+        <div>
+            <img id="programing-draw-maincontainer01"
+                src="/files/man-coding3.svg"
+                alt="">
+        </div>
+          
+    </div>
+
+    <!-- COUNTAINER 02 - Sobre Min-->
+
+    <div id="container-02">
+
+        <div>
+            <img id="programing-draw-maincontainer"
+                src="/files/man-coding.svg"
+                alt="drawing of a man coding ">
+        </div>
+
+        <div id="content-container-02">
+
+            <h1>Sobre mim</h1>
+
+            <hr class="line-sep-c2">
+
+            <h2>Cursando Análise e <span>Desenvolvimento de Sistemas.</span> </h2>
+
+            <p>Atualmente atuo nas áreas de <span>Desenvolvimento Web</span>, onde continuo criando interfaces e
+                páginas, como <span>landing pages e projetos com JavaScript </span>, utilizando minhas habilidades para
+                criar <span>Páginas Responsivas</span> e de qualidade que agradem ao público-alvo. Além disso, estou me
+                especializando nas áreas de <span>Cyber Security</span> e <span>Ethical Hacking</span>.</p>
+            <button>Meu Portifólio</button>
+
+        </div>
+    </div>
+
+    <!-- COUNTAINER 03 - Meus Projetos -->
+
+    <div id="container-03">
+        <h1>Meus Projetos</h1>
+
+        <hr class="line-sep-c1">
+
+        <p>Aqui estão alguns dos meus projetos feitos totalmente com <span>HTML5</span> ,<span>CSS3</span> ,
+            <span>JavaScript</span> dentre outros que ainda estão em desenvolvimento.
+        </p>
+
+
+
+        <div id="container-projects">
+            <!-- CALCULADORA EM HTML -->
+            <div class="projects">
+                <h2>Calculadora em HTML5 + CSS3 + JS</h2>
+                <video src="/vid-projects/calc.mp4"
+                    style="width: 90%; border-radius: 10px;"
+                    autoplay
+                    muted
+                    loop></video>
+                <a href="https://github.com/joaox777/Calculadora-html-css-js"
+                    target="_blank"><button>Repositório</button></a>
+                <button>Deploy</button>
+            </div>
+            <!-- HISTORIA DO ANDROID -->
+            <div class="projects">
+                <h2>Site Curso - História do Android</h2>
+                <video src="/vid-projects/android.mp4"
+                    style=" width: 90%; border-radius: 10px;"
+                    autoplay
+                    muted
+                    loop></video>
+                <a href="https://github.com/joaox777/Desafio-curso-em-video"
+                    target="_blank"><button>Repositório</button></a>
+                <button>Deploy</button>
+            </div>
+            <!-- RELOGIO EM HTML CSS E JS -->
+            <div class="projects">
+                <h2>Relógio em HTML5 CSS3 E JS</h2>
+                <video src="/vid-projects/Relogio.mp4"
+                    style="width: 90%; border-radius: 10px;"
+                    autoplay
+                    muted
+                    loop></video>
+                <a href="https://github.com/joaox777/Relogio-em-js"
+                    target="_blank"><button>Repositório</button></a>
+                <button>Deploy</button>
+            </div>
+            <!-- SITE DELIVERY -->
+            <div class="projects">
+                <h2>Landing page Colégio Delta</h2>
+                <video src="/vid-projects/colegio.mp4"
+                    style="width: 90%; border-radius: 10px;"
+                    autoplay
+                    muted
+                    loop></video>
+                <button>Repositório</button>
+                <button>Deploy</button>
+            </div>
+
+            <!-- PROJETOS EM ANDAMENTO -->
+
+            <div class="projects-inprogress">
+                <h2>- [ EM ANDAMENTO ] - Site Delivery</h2>
+                <video src="/vid-projects/Quickbite.mp4"
+                    style="width: 90%; border-radius: 10px;"
+                    autoplay
+                    muted
+                    loop></video>
+                <button onclick="inprogress()">Repositório</button>
+                <button onclick="inprogress()">Depl</button>
+            </div>
+
+            <div class="projects-inprogress">
+                <h2>- [ EM ANDAMENTO ] - Banco Digital</h2>
+                <video src="/vid-projects/banco.mp4"
+                    style="width: 90%; border-radius: 10px;"
+                    autoplay
+                    muted
+                    loop></video>
+                <button onclick="inprogress()">Repositório</button>
+                <button onclick="inprogress()">Deploy</button>
+            </div>
+
+        <div>
+            <button id="button-seemore" style="width: 100px; height: 30px; margin: 10px 0;" onclick="seemore()">Ver mais </button>
+        </div>
+
+        </div>
+    </div>
+
+    <div id="container-skills">
+        <h1>Skills</h1>
+        <!-- HTML -->
+        <div id="div-skills">
+            <div class="skill">
+                <h3>HTML5</h3>
+                <img src="/icons/html-5.png"
+                    alt="">
+            </div>
+            <!-- CSS -->
+            <div class="skill">
+                <h3>CSS3</h3>
+                <img src="/icons/css-3.png"
+                    alt="">
+            </div>
+            <!-- HARDWARE -->
+            <div class="skill">
+                <h3>HARDWARE</h3>
+                <img src="/icons/cpu.png"
+                    alt="">
+            </div>
+            <!-- JS -->
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <img src="/icons/js.png"
+                    alt="">
+            </div>
+            <!-- CYBER SECURITY -->
+            <div class="skill" onclick="curseinprogress()">
+                <h3>Cyber Security</h3>
+                <img src="/icons/seguranca-na-web.png"
+                    alt="">
+            </div>
+            <!-- IPV4 -->
+            <div class="skill" onclick="curseinprogress()">
+                <h3>Endereçamento IPV4</h3>
+                <img src="/icons/router.png"
+                    alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- COUNTAINER 04 -->
+
+    <div id="container-04">
+        <div id="content-container-04">
+            <h1>Meus Certificados</h1>
+            <!-- INTRODUÇAO TEXTO SOBRE CERTIFICADOS -->
+            <hr class="line-sep-c1">
+            <p>Aqui estão alguns dos meus <span>Certificados</span> mais importantes. Eles têm tido uma grande
+                influência na minha jornada como <span>Desenvolvedor</span>, e estou sempre buscando me aprimorar para
+                criar novos projetos com o aprendizado adquirido por meio deles.
+                Valorizo muito a busca constante pelo aprendizado e <span>desenvolvimento pessoal</span> na minha área
+                de atuação, e os certificados que conquistei são uma forma de <span>comprovar meu comprometimento com
+                    esse processo</span>.</p>
+        </div>
+        <!-- CERTIFICADO HTML E CSS -->
+        <div class="certificates">
+            <img class="img-certificates"
+                src="/certificados/html5.png"
+                alt="certificate of html e css modulo 1">
+            <h2>HTML5 + CSS3 MOD 01</h2>
+            <button class="download-icon"> Download</button>
+            <button class="info-icon">Sobre</button>
+        </div>
+
+
+        <!-- CERTIFICADO HTML E CSS 2 -->
+        <div class="certificates">
+            <img class="img-certificates"
+                src="/certificados/hardware.png"
+                alt="certificate of html e css modulo 2">
+            <h2>HTML5 + CSS3 MOD 02</h2>
+            <button class="download-icon"> Download</button>
+            <button class="info-icon">Sobre</button>
+        </div>
+        <!-- CERTIFICADO HARDWARE -->
+        <div class="certificates">
+            <img class="img-certificates"
+                src="/certificados/hardware.png"
+                alt="certificate of hardware">
+            <h2>HARDWARE</h2>
+            <button class="download-icon"> Download</button>
+            <button class="info-icon">Sobre</button>
+        </div>
+        <!-- CERTIFICADO HACKER -->
+        <div class="certificates" onclick="curseinprogress()">
+            <img class="img-certificates"
+                src="/certificados/html5.png"
+                alt="certificate of Ethical Hacking">
+            <h2>JavaScript</h2>
+            <button class="download-icon"> Download</button>
+            <button class="info-icon">Sobre</button>
+        </div>
+
+        <div class="course-inprogress" style="display: none;" class="certificates" onclick="curseinprogress()">
+            <img class="img-certificates"
+                src="/certificados/EMANDAMENTOUDEMY.png"
+                alt="certificate of Ethical Hacking">
+            <h2>Formação Hacker - Ethical Hacking</h2>
+            <button class="download-icon"> Download</button>
+            <button class="info-icon">Sobre</button>
+        </div>
+
+        <div class="course-inprogress" style="display: none;" class="certificates" onclick="curseinprogress()">
+            <img class="img-certificates"
+                src="/certificados/EMANDAMENTOUDEMY.png"
+                alt="certificate of Ethical Hacking">
+            <h2>Formação Hacker - Ethical Hacking</h2>
+            <button class="download-icon"> Download</button>
+            <button class="info-icon">Sobre</button>
+        </div>
+
+        <div>
+            <button style="width: 100px; height: 30px; margin: 10px 0;" onclick="seemorecert()">Ver mais </button>
+        </div>
+
+</body>
+
+<!-- FOOTER -->
+<footer>
+    <h1>Contato</h1>
+    <hr class="line-sep-c1">
+
+    <h3>Gostou do meu trabalho ? Sugestão de melhorias ou criticas construtivas ou ate
+        Contratar um Serviço ? <a href="mailto:jaojoaohurts@gmail.com">Entre em Contato</a></h3>
+    <p><span>®</span> João Victor Martins Ornelas - All Rights Reserved</p>
+
+    <!-- ICONS OF SOCIAL MEDIAS -->
+
+    <div id="icons-contactme">
+        <a href="https://www.instagram.com/joaovictorornelas761/"
+            target="_blank"><img src="/icons/instagram.png"
+                alt="instagram icon"></a>
+
+        <a href="https://github.com/joaox777"
+            target="_blank"><img src="/icons/github.png"
+                alt=" github icon"></a>
+
+        <a href="https://www.linkedin.com/in/joao-victor-ornelas-95b63b229/"
+            target="_blank"><img src="/icons/linkedin.png"
+                alt=" linkedi icon"></a>
+
+        <a href="mailto:jaojoaohurts@gmail.com"
+            target="_blank"><img src="/icons/email.png"
+                alt="email icon"></a>
+    </div>
+</footer>
+
+</html>
