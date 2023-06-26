@@ -1,37 +1,21 @@
 function darkmode() {
-  //DECLARAÇAO DA VARIAVEL DE HEADER
-  var header = document.querySelector('header')
+  var header = document.querySelector('header');
   var logo = document.getElementById('logo');
-
-  //DECLARAÇAO DA VAR CONTAINER 1
   var container1 = document.getElementById('container-01');
-
-  //DECLARAÇAO DA VAR CONTAINER 2
   var container2 = document.getElementById('container-02');
-
-  //DECLARAÇAO DA VAR CONTAINER 3
   var container3 = document.getElementById('container-03');
-
-  //DECLARAÇAO DA VAR CONTAINER DE PROJETOS
   var projects = document.querySelectorAll('.projects');
-  var projectprog = document.querySelectorAll('.projects-inprogress')
-
-    //DECLARAÇAO DA VAR CONTAINER DE SKILLS
-    var skills = document.getElementById('container-skills');
-    var skill = document.querySelectorAll('.skill');
-
-    //DECLARAÇAO DA VAR CONTAINER 4 E CERTIFICADOS
-    var container4 = document.getElementById('container-04');
-    var certified = document.querySelectorAll('certificates');
-
-    //DECLARAÇAO DAS VARIAVES DO FOOTER
-    var footer = document.querySelector('footer');
-
+  var projectprog = document.querySelectorAll('.projects-inprogress');
+  var skills = document.getElementById('container-skills');
+  var skill = document.querySelectorAll('.skill');
+  var container4 = document.getElementById('container-04');
+  var certificates = document.querySelectorAll('.certificates');
+  var footer = document.querySelector('footer');
 
   if (container1.classList.contains('dark-mode')) {
     container1.classList.remove('dark-mode');
-    header.style.backgroundColor=""
-    header.style.color=""
+    header.style.backgroundColor = '';
+    header.style.color = '';
     logo.src = '/Logo/logo.png';
 
     container1.style.backgroundColor = '';
@@ -43,8 +27,13 @@ function darkmode() {
     container3.style.backgroundColor = '';
     container3.style.color = '';
 
-    skill.style.backgroundColor = '';
+    skills.style.backgroundColor = '';
     skills.style.color = '';
+
+    skill.forEach(skill => {
+      skill.style.backgroundColor = '';
+      skill.style.color = '';
+    });
 
     container4.style.backgroundColor = '';
     container4.style.color = '';
@@ -52,38 +41,46 @@ function darkmode() {
     projects.forEach(project => {
       project.style.backgroundColor = '';
       project.style.color = '';
-
-    })
+    });
 
     projectprog.forEach(projectprog => {
       projectprog.style.backgroundColor = '';
       projectprog.style.color = '';
+    });
 
-    })
+    certificates.forEach(cert => {
+      cert.style.backgroundColor = '';
+      cert.style.color = '';
+    });
 
-    footer.style.backgroundColor = ""
-    footer.style.color = ""
-    ;
+    footer.style.backgroundColor = '';
+    footer.style.color = '';
   } else {
     container1.classList.add('dark-mode');
 
-    //DEFININDO ESTILO DO HEADER
-
-    header.style.backgroundColor = "var(--background-color)"
+    header.style.backgroundColor = 'var(--background-color)';
     logo.src = '/Logo/logo-white.png';
-    header.style.backgroundColor = "var(--background-color)"
+    header.style.backgroundColor = 'var(--background-color)';
 
-
-    //DEFININDO ESTILO DOS CONTAINERS
     container1.style.backgroundColor = 'var(--background-color-2)';
     container1.style.color = 'black';
 
     container2.style.backgroundColor = 'var(--background-color)';
     container2.style.color = 'black';
 
-    //DEFININDO ESTILO DO CONTAINER 3 E DAS DIVS INTERNAS
+    skills.style.backgroundColor = 'var(--background-color)';
+    skills.style.color = 'black';
+
     container3.style.backgroundColor = 'var(--background-color-2)';
     container3.style.color = 'black';
+
+    skill.forEach(skill => {
+      skill.style.backgroundColor = 'var(--background-color-2)';
+      skill.style.color = 'black';
+    });
+
+    container4.style.backgroundColor = 'var(--background-color-2)';
+    container4.style.color = 'black';
 
     projects.forEach(project => {
       project.style.backgroundColor = 'var(--background-color)';
@@ -95,29 +92,12 @@ function darkmode() {
       projectprog.style.color = 'black';
     });
 
-    //DEFININDO ESTILO DO CONTAINER SKILL E DAS DIVS INTERNAS
+    certificates.forEach(cert => {
+      cert.style.backgroundColor = 'var(--background-color)';
+      cert.style.color = 'black';
+    });
 
-    skills.style.backgroundColor = 'var(--background-color)';
-    skills.style.color = 'black';
-
-    skill.forEach(skill =>{
-      skill.style.backgroundColor = 'var(--background-color-2)';
-      skill.style.color = 'black';
-    })
-
-    //DEFININDO ESTILO DO CONTAINER DE CERTIFICADOS E DAS DIVS INTERNAS
-
-    container4.style.backgroundColor = 'var(--background-color-2)';
-    container4.style.color = 'black';
-
-    certified.forEach(certified =>{
-      certified.style.backgroundColor = 'var(--background-color)';
-      certified.style.color = 'black';
-    })
-
-    // DEFININDO ESTILO DO FOOTER 
-
-    footer.style.backgroundColor="var(--background-color)"
-    footer.style.color="black"
+    footer.style.backgroundColor = 'var(--background-color)';
+    footer.style.color = 'black';
   }
 }

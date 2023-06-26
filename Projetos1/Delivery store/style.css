@@ -1,0 +1,352 @@
+:root {
+
+    --corprincipal: #E0040B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header */
+
+header {
+    background-color: white;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.logo {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+header div p {
+    display: inline-flex;
+    margin: 10px 10px 5px 10px;
+}
+
+/* Body */
+
+body {
+    background-color: white;
+}
+
+
+/* MENU */
+
+.left-menu {
+    background-color: #cc000770;
+    border: 0.1px solid #E0040B;
+    text-align: right;
+    height: auto;
+    border-radius: 0 0 10px 10px;
+    margin: 0 2px;
+    padding: 5px;
+    padding-top: 7px;
+}
+
+.left-menu a {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 55px;
+    margin: 6px 10px 0 4px;
+}
+
+.icon-header:hover {
+    transform: scale(1.3);
+    transition: all 0.2s;
+}
+
+.icon-header {
+    width: 38px;
+    height: auto;
+    margin: 0 10px;
+    text-align: right;
+    transition:1.0s ease;
+}
+
+/* cATEGORIAS */
+
+.images-categories {
+    border: 0.1px solid rgba(196, 196, 196, 0.521);
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    width: 65%;
+}
+
+.categories-h2 {
+    margin: 10px 15%;
+    font-size: 30px;
+}
+
+.images-categories a {
+    border: 0.1px solid rgba(196, 196, 196, 0.521);
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+    padding: 5px;
+    border-radius: 10px;
+    transition:1.0s ease;
+}
+
+.images-categories a strong {
+    color: #E0040B;
+}
+
+.images-categories a span {
+    color: rgb(109, 172, 15);
+}
+
+.images-categories a:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.575) 1px 1px 30px;
+
+}
+
+.images-categories p {
+    margin-bottom: 5px;
+}
+
+/* .icon-prev{
+    display:block;
+    width: 35px;
+    margin-top: 190%;
+    transform: rotate(180deg);
+}
+
+.icon-next{
+    display:block;
+    width: 35px;
+} */
+
+.imgcat-section {
+    width: 118px;
+    height: 110px;
+    border-radius: 10px;
+
+}
+
+/* MAIN */
+
+.top-deliver {
+    border: 0.1px solid rgba(196, 196, 196, 0.521);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 75%;
+    height: auto;
+}
+
+.top-deliver a {
+    display: inline-flex;
+    margin: 10px 0;
+}
+
+.top-deliver-h2 {
+    margin: 10px auto;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.vidcat-top {
+    width: 173px;
+    height: 260px;
+}
+
+.line-sep1 {
+    width: 90%;
+    margin: 0 auto;
+    height: 2px;
+    padding-top: 1px;
+    background-color: #E0040B;
+    border-color: #E0040B;
+    border-radius: 50%;
+}
+
+/* restaurantes - lista */
+
+.restaurants-list {
+    border: 0.1px solid rgba(196, 196, 196, 0.521);
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    width: 85%;
+    margin: 25px auto;
+}
+
+.restaurant-logo a {
+    width: 30%;
+}
+
+.restaurant-logo img {
+    width: 120%;
+    display: inline;
+    margin: 25% 15px;
+}
+
+.restaurant-logo {
+    border: 0.1px solid rgba(196, 196, 196, 0.521);
+    display: inline-flex;
+    width: 299px;
+    height: 150px;
+    margin: 10px 10px 10px 5px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+.restaurant-logo span {
+    color: #e0040bd3;
+    font-weight: bold;
+}
+
+.logoradious {
+    border-radius: 50%;
+}
+
+.restaurant-logo h3 {
+    margin: 25px 0 0 35px;
+    text-align: left;
+}
+
+.restaurant-logo h5 {
+    margin-bottom: 5px;
+}
+
+.description {
+    margin: 95px 0 0 -150px;
+}
+
+.star-ava {
+    margin-top: 10px;
+}
+
+.star-ava img {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    margin: 0px 10px 0 5px;
+}
+
+.star-ava p {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.Classification {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.restaurants-list hr {
+    background-color: #E0040B;
+    border-color: transparent;
+    border-radius: 10px;
+    height: 90%;
+    margin: auto 5px 0 15px;
+    width: 3px;
+}
+
+/* Scrool Bar */
+
+html ::-webkit-scrollbar {
+    background-color: white;
+    width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background-color: #E0040B;
+    border-radius: 10px;
+    width: 5px;
+}
+
+html ::-webkit-scrollbar-track {
+    width: 5px;
+}
+
+/* nav final page */
+
+.nav-down {
+    background-color: white;
+    border: 0.1px solid rgba(196, 196, 196, 0.521);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.nav-down div {
+    display: inline-flex;
+    margin: 10px 7.5%;
+}
+
+.nav-down-footer {
+    width: 35px;
+    transition:1.0s ease;
+}
+
+.nav-down-footer:hover {
+    transform: scale(1.3);
+    transition: all 0.2s;
+}
+
+/* colunas institucionais */
+
+footer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer hr {
+    background-color: #E0040B;
+    border: none;
+    height: 1px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.collumns {
+    display: inline-flex;
+}
+
+.collumns h4 {
+    margin: 10px 15px;
+}
+
+footer section {
+    padding-bottom: 65px;
+}
+
+.icon {
+    width: 35px;
+    margin: 15px;
+    transition:1.0s ease;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+
+footer section p {
+    padding-bottom: 10px;
+    text-decoration: underline;
+}

@@ -24,6 +24,11 @@
     --background-color-2:#F0F0F0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -410,6 +415,7 @@ nav {
 #container-skills {
     background-color: var(--collor-01);
     color: white;
+    padding-bottom: 10px;
     margin: -10px auto;
     text-align: center;
 }

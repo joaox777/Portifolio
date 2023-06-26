@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Share Tech Mono', monospace;
+}
+#nome{
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#logo{
+    position: relative;
+    margin: 20px;
+    width: 150px;
+}
+
+.fundo{
+    background-image:linear-gradient(45deg,black,#00FF43 80%);
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    margin: 2px;
+}
+#resultado{
+    background-color: white;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 4.1px;
+
+}
+.calculadora{
+    background-color: rgba(0, 0, 0,0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50% , -50%);
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+.botao:hover{
+    background-color: rgb(0, 0, 0);
+}
+footer{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    bottom: 0;
+    height: 45px;
+    width: 99.9%;
+}
+footer>p{
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.icon {
+    width: 35px;
+    position: relative;
+    float: right;
+    bottom: 0;
+    right: 0;
+    bottom: 25px;
+    margin-right: 20px;
+    margin-left: 10px;
+  }

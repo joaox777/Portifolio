@@ -1,0 +1,213 @@
+:root{
+    --cor1:#BF1736;
+    --cor2:#21038C;
+    --cor3:#0D0259;
+    --cor4:#0A0140;
+    --cor5:#060126;
+    --cor6:#89D0F0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
+
+/* font-family: 'Changa One', cursive;
+
+font-family: 'Comfortaa', cursive;
+
+font-family: 'Waiting for the Sunrise', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+
+body{
+    background-color:var(--cor4);
+}
+
+/* NAV */
+
+nav{
+    text-align: right;
+}
+
+.logo{
+    display: block;
+    width: 15%;
+    margin: 5px auto 5px auto;
+}
+
+nav div p{
+    background-color: #BF1736;
+    color: var(--cor2);
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 15px;
+    display: inline-block;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 10px 8px 20px 0;
+}
+
+/* MAIN */
+
+main{
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+
+}
+
+.mainimg{
+    width: 75%;
+    transform: translate(17%);
+    border-radius: 25px;
+    margin-top: 10px;
+
+}
+
+.button{
+    text-align: center;
+}
+
+button{
+    background-color: var(--cor1);
+    color: black;
+    margin: 10px 0 10px 10px;
+    padding: 7px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+main hr{
+    background-color: var(--cor4);
+    border: none;
+    margin: 10px auto;
+    width: 90%;
+    height: 5px;
+    border-radius: 10px;
+}
+
+main h2{
+    color: black;
+    font-family: 'Waiting for the Sunrise', cursive;
+    margin: 0 10px 5px 30px;
+}
+
+main p{
+    color: black;
+    font-family: 'Changa One', cursive;
+    margin: 20px 25px;
+    text-indent: 10px;
+}
+
+main li{
+    margin: 10px 10px 0 45px;
+    font-family: 'Changa One', cursive;
+}
+
+main ul{
+    margin-top: 10px;
+}
+
+.countainerimg{
+    background-color: black;
+    height: auto;
+    border-radius: 20px;
+    width: 90%;
+    padding: 6px;
+    margin: 0 auto;
+}
+
+.imagesclass{
+    width: 28%;
+    margin: 12px 2.28%;
+    border-radius: 10px;
+}
+
+.imagesclass:hover{
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+
+/* scroll */
+
+::-webkit-scrollbar {
+    background-color: var(--cor3);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor1);
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: white;
+    height: auto;
+    padding-bottom: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+footer div{
+    display: block;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    margin: 10px auto;
+}
+
+footer hr{
+    background-color: var(--cor4);
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    height: 5px;
+    border-radius: 10px;
+
+}
+
+footer div p,a{
+    display: inline;
+    text-decoration: underline;
+    color: black;
+}
+
+ .infoleg a + a:before {
+    color: var(--cor4);
+    content: "|";
+    margin: 0 10px;
+    width: 80%;
+}
+
+.icon{
+    width: 35px;
+    margin: 20px 10px 20px 10px;
+}
+
+.qrcode {
+    display: block;
+    margin: 0 auto;
+  }
+
+.qrcode img{
+    width: 120px;
+}
+
+.icon:hover{
+    transform: scale(1.4);
+    transition: all 0.2s;
+}
+

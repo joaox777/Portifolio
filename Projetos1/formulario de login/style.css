@@ -1,0 +1,177 @@
+:root{
+    --cor1:#43007F;
+    --cor2:#6B00CC;
+    --cor3:#8600FF;
+    --cor4:#A037FF;
+    --cor5:#08F445;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+/* font-family: 'Secular One', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+@font-face {
+    font-family:'garet';
+    src: url("/Projetos1/formulario de login/fontes/garet.heavy.ttf");
+}
+/* font-family: 'Bungee', cursive; */
+
+/* CABEÇALHO */
+
+header img{
+    width: 200px;
+
+}
+
+/* BODY */
+
+body{
+    background-color: #820AD1;
+}
+
+main{
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    padding: 15px;
+    width: 320px;
+
+}
+
+/* sistema de login */
+
+.loginbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+main div{
+    height: 80%;
+}
+main div h4{
+    margin-left: 15px;
+}
+main h1{
+    font-family:'garet';
+    color:var(--cor1);
+    text-align: center;
+    font-size: 37px;
+}
+
+/* formularios de texto */
+
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.form-text{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #43007F;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 3px;
+}
+
+h5{
+    padding: 5px;
+    text-align: right;
+}
+
+.icon2{
+    width: 30px;
+    margin: auto 20px;
+}
+/* Botao login */
+
+.login-button{
+    background-color: var(--cor1);
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    margin: 10px 30%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* entre com as redes sociais */
+
+.enterwith{
+    display: block;
+    text-align: center;
+}
+
+.icon{
+    width: 35px;
+    margin: 0 5px 10px 10px;
+}
+
+.icon:hover{
+    transform: scale(1.3);
+    transition: all 0.2s;
+}
+
+h4 strong:hover{
+    color: var(--cor3);
+    cursor: pointer;
+}
+
+.login:hover{
+    cursor: pointer;
+}
+/* crie sua conta  */
+
+.createaccont{
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    position: fixed;
+    display: flex;
+    margin: 0 0 0 -7px;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+}
+  footer p{
+    margin: 20px 10px 10px 10px;
+    font-size: 15px;
+    font-family: 'Share Tech Mono', monospace;
+    color: var(--cor5);
+}
+  
+  footer .icon {
+    margin-top: 5px;
+    margin-right: 25px;
+    
+}
+
+  footer .icon:hover{
+    transform: scale(1.3);
+    transition: all 0.2s;
+}

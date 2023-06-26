@@ -22,9 +22,8 @@
     </div>
     <!-- Nav Buttons -->
     <nav>
-        <a href="#aboutme"><button class="button-header">Sobre</button></a>
-        <a href=""><button class="button-header">Projetos</button></a>
-        <a href=""><button class="button-header">Contato</button></a>
+        <a href="#projects-btn"><button class="button-header">Projetos</button></a>
+        <a href="/HTML/contato.html"><button class="button-header">Contato</button></a>
         <button class="button-header" onclick="darkmode()">Darkmode</button>
     </nav>
 </header>
@@ -46,8 +45,8 @@
 
             <!-- BOTOES DE CONTATO E PROJETOS -->
             <div class="button-container-01">
-                <a href=""><button>Contato</button></a>
-                <a href=""><button>Projetos</button></a>
+                <a href="#about-btn"><button class="button-header">Sobre</button></a>
+                <a href="#projects-btn"><button class="button-header">Projetos</button></a>
             </div>
         </div>
 
@@ -63,13 +62,13 @@
 
     <div id="container-02">
 
-        <div>
-            <img id="programing-draw-maincontainer"
+        <div id="about-btn">
+            <img  id="programing-draw-maincontainer"
                 src="/files/man-coding.svg"
                 alt="drawing of a man coding ">
         </div>
 
-        <div id="aboutme" id="content-container-02">
+        <div id="content-container-02">
 
             <h1>Sobre mim</h1>
 
@@ -81,7 +80,7 @@
                 páginas, como <span>landing pages e projetos com JavaScript </span>, utilizando minhas habilidades para
                 criar <span>Páginas Responsivas</span> e de qualidade que agradem ao público-alvo. Além disso, estou me
                 especializando nas áreas de <span>Cyber Security</span> e <span>Ethical Hacking</span>.</p>
-            <button>Meu Portifólio</button>
+            <a href="https://github.com/joaox777" target="_blank"><button>Meu GitHub</button></a>
 
         </div>
     </div>
@@ -89,7 +88,7 @@
     <!-- COUNTAINER 03 - Meus Projetos -->
 
     <div id="container-03">
-        <h1>Meus Projetos</h1>
+        <h1 id="projects-btn">Meus Projetos</h1>
 
         <hr class="line-sep-c1">
 
@@ -108,9 +107,8 @@
                     autoplay
                     muted
                     loop></video>
-                <a href="https://github.com/joaox777/Calculadora-html-css-js"
-                    target="_blank"><button>Repositório</button></a>
-                <button>Deploy</button>
+                <a href="https://github.com/joaox777/Calculadora-html-css-js"target="_blank"><button>Repositório</button></a>
+                    <a href="/Projetos1/calculadora em html , css e js/index.html" target="_blank"><button>Deploy</button></a>
             </div>
             <!-- HISTORIA DO ANDROID -->
             <div class="projects">
@@ -121,8 +119,9 @@
                     muted
                     loop></video>
                 <a href="https://github.com/joaox777/Desafio-curso-em-video"
-                    target="_blank"><button>Repositório</button></a>
-                <button>Deploy</button>
+                    target="_blank">
+                    <button>Repositório</button></a>
+                    <button>Deploy</button>
             </div>
             <!-- RELOGIO EM HTML CSS E JS -->
             <div class="projects">
@@ -132,9 +131,8 @@
                     autoplay
                     muted
                     loop></video>
-                <a href="https://github.com/joaox777/Relogio-em-js"
-                    target="_blank"><button>Repositório</button></a>
-                <button>Deploy</button>
+                <a href="https://github.com/joaox777/Relogio-em-js"target="_blank"><button>Repositório</button></a>
+                    <a href="/Projetos1/relogio/index.html"><button>Deploy</button></a>
             </div>
             <!-- SITE DELIVERY -->
             <div class="projects">
@@ -144,8 +142,8 @@
                     autoplay
                     muted
                     loop></video>
-                <button>Repositório</button>
-                <button>Deploy</button>
+                <a href="https://github.com/joaox777/Landing-page-Colegio" target="_blank"><button>Repositório</button></a>
+                <a href="/Projetos1/Colegio Delta/index.html"><button>Deploy</button></a>
             </div>
 
             <!-- PROJETOS EM ANDAMENTO -->
@@ -158,7 +156,7 @@
                     muted
                     loop></video>
                 <button onclick="inprogress()">Repositório</button>
-                <button onclick="inprogress()">Depl</button>
+                <button onclick="inprogress()">Deploy</button>
             </div>
 
             <div class="projects-inprogress">
@@ -241,7 +239,7 @@
                 src="/certificados/html5.png"
                 alt="certificate of html e css modulo 1">
             <h2>HTML5 + CSS3 MOD 01</h2>
-            <button class="download-icon"> Download</button>
+            <a href="/certificados/html5.png" download="/certificados/html5.png"><button class="download-icon"> Download</button></a>
             <button class="info-icon">Sobre</button>
         </div>
 
@@ -252,7 +250,7 @@
                 src="/certificados/hardware.png"
                 alt="certificate of html e css modulo 2">
             <h2>HTML5 + CSS3 MOD 02</h2>
-            <button class="download-icon"> Download</button>
+            <a href="/certificados/html5.png" download="/certificados/html5.png"><button class="download-icon"> Download</button></a>
             <button class="info-icon">Sobre</button>
         </div>
         <!-- CERTIFICADO HARDWARE -->
@@ -261,7 +259,7 @@
                 src="/certificados/hardware.png"
                 alt="certificate of hardware">
             <h2>HARDWARE</h2>
-            <button class="download-icon"> Download</button>
+            <a href="/certificados/hardware.png" download="/certificados/hardware.png"><button class="download-icon"> Download</button></a>
             <button class="info-icon">Sobre</button>
         </div>
         <!-- CERTIFICADO HACKER -->
@@ -287,7 +285,7 @@
             <img class="img-certificates"
                 src="/certificados/EMANDAMENTOUDEMY.png"
                 alt="certificate of Ethical Hacking">
-            <h2>Formação Hacker - Ethical Hacking</h2>
+            <h2>Endereçamento IPV4 - CURSO EM VIDEO</h2>
             <button class="download-icon"> Download</button>
             <button class="info-icon">Sobre</button>
         </div>
@@ -299,7 +297,7 @@
 </body>
 
 <!-- FOOTER -->
-<footer>
+<footer id="contact-btn">
     <h1>Contato</h1>
     <hr class="line-sep-c1">
 
