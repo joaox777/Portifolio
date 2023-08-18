@@ -3,19 +3,32 @@
 /* font-family: 'Share Tech Mono', monospace; */
 @import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
 /* font-family: 'Geologica', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+/*font-family: 'Teko', sans-serif;*/
+
+@font-face {
+    font-family: futura;
+    src: url(/fonts/nike/Futura\ Std\ Extra\ Bold\ Condensed\ Oblique.ttf);
+}
+
+@font-face {
+    font-family: futura-btn;
+    src: url(/fonts/nike/Futura\ Std\ Extra\ Bold.ttf);
+}
+
 
 :root {
-    --collor-01: #1F2023;
-    --collor-02: #27282D;
-    --main-color: #F20505;
+    --collor-01: #0D0D0D;
+    --collor-02: #111111;
+    --main-color: #215bf0;
     --main-color2: #ff3434;
 
     --text-color: #ffff;
 
     /* cores botoes */
 
-    --color-button01: #d60000;
-    --color-button02: #550000;
+    --color-button01: #215bf0;
+    --color-button02: #557ee4;
 
     /* DARK MODE */
 
@@ -36,9 +49,10 @@ html {
 }
 /* ESTILOS EM CONJUNTO */
 
-h1{
-    font-family: 'Share Tech Mono', monospace;
+h1 {
+    font-family: 'futura', sans-serif;
 }
+
 
 h2 {
     font-family: 'Share Tech Mono', monospace;
@@ -53,7 +67,8 @@ p{
 }
 
 button{
-    cursor: pointer
+    cursor: pointer;
+    font-weight: 10px
 }
 
 /* FONTES */
@@ -347,6 +362,7 @@ nav {
 /* DIVS DE PROJETOS COUNTAINER-03 */
 
 #container-projects {
+    background-color: var(--collor-02);
     height: auto;
     margin: 10px auto;
     width: 90%;
@@ -361,7 +377,7 @@ nav {
 }
 
 .projects {
-    background-color: var(--collor-02);
+    background-color: var(--collor-01);
     color: var(--text-color);
     border: 0.3px solid var(--main-color);
     border-radius: 10px;
@@ -433,11 +449,16 @@ nav {
 /* CONTAINER SKILLS */
 
 #container-skills {
-    background-color: var(--collor-01);
+    background-color: var(--collor-02);
     color: white;
     padding-bottom: 10px;
     margin: -10px auto;
     text-align: center;
+}
+
+#div-skills a{
+    text-decoration: none;
+    color: white;
 }
 
 #container-skills h1 {
@@ -497,15 +518,15 @@ nav {
 /* COUNTAINER 04 */
 
 #container-04 {
-    background-color: var(--collor-02);
+    background-color: var(--collor-01);
     color: var(--text-color);
-    margin: 0 auto;
+    margin: -10px auto;
     text-align: center;
     transition: 0.5s;
 }
 
 #content-container-04 {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -526,6 +547,7 @@ nav {
 }
 
 .certificates {
+    background-color: var(--collor-02);
     border: 0.3px solid var(--main-color);
     display: inline-block;
     width: 390px;
@@ -583,7 +605,7 @@ nav {
 
 @media screen and (max-width: 600px) {
 
-    .certificates {
+    .certificates , .course-inprogress {
         width: 370px;
         height: auto;
     }
@@ -591,7 +613,7 @@ nav {
 
 @media screen and (max-width: 380px) {
 
-    .certificates {
+    .certificates , .course-inprogress {
         width: 325px;
         height: auto;
     }

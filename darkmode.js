@@ -68,14 +68,14 @@ function darkmode() {
     container2.style.backgroundColor = 'var(--background-color)';
     container2.style.color = 'black';
 
-    skills.style.backgroundColor = 'var(--background-color)';
+    skills.style.backgroundColor = 'var(--background-color-2)';
     skills.style.color = 'black';
 
-    container3.style.backgroundColor = 'var(--background-color-2)';
+    container3.style.backgroundColor = 'var(--background-color)';
     container3.style.color = 'black';
 
     skill.forEach(skill => {
-      skill.style.backgroundColor = 'var(--background-color-2)';
+      skill.style.backgroundColor = 'var(--background-color)';
       skill.style.color = 'black';
     });
 

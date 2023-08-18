@@ -12,3 +12,7 @@ const header = document.getElementById('header');
 darkmodeCheckbox.addEventListener('change', function() {
   header.classList.toggle('dark', this.checked);
 });
+
+function indisponivel(){
+  window.alert('Indisponivel no momento!')
+}
