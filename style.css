@@ -342,6 +342,7 @@ nav {
     background-color: var(--collor-02);
     color: var(--text-color);
     text-align: center;
+    padding-bottom: 5px;
 }
 
 #container-03 h1 {

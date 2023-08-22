@@ -17,7 +17,7 @@ function seemore() {
 // CERTIFICADOS
 
 function seemorecert() {
-    var inprogresscert = document.querySelectorAll('.course-inprogress');
+    var inprogresscert = document.querySelectorAll('.course-inprogress , .course-hide');
 
     inprogresscert.forEach(function(element) {
         if (element.classList.contains('seemorecert')) {

@@ -6,6 +6,7 @@ function darkmode() {
   var container3 = document.getElementById('container-03');
   var projects = document.querySelectorAll('.projects');
   var projectprog = document.querySelectorAll('.projects-inprogress');
+  var projectscontainer = document.getElementById('container-projects')
   var skills = document.getElementById('container-skills');
   var skill = document.querySelectorAll('.skill');
   var container4 = document.getElementById('container-04');
@@ -29,6 +30,9 @@ function darkmode() {
 
     skills.style.backgroundColor = '';
     skills.style.color = '';
+
+    projectscontainer.style.backgroundColor = '';
+    projectscontainer.style.color = '';
 
     skill.forEach(skill => {
       skill.style.backgroundColor = '';
@@ -70,9 +74,11 @@ function darkmode() {
 
     skills.style.backgroundColor = 'var(--background-color-2)';
     skills.style.color = 'black';
-
     container3.style.backgroundColor = 'var(--background-color)';
     container3.style.color = 'black';
+
+    projectscontainer.style.backgroundColor = 'var(--background-color-2)';
+    projectscontainer.style.color = 'black';
 
     skill.forEach(skill => {
       skill.style.backgroundColor = 'var(--background-color)';
