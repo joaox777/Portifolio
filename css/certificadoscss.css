@@ -1,0 +1,115 @@
+/*GLOBAL CONFIGURATION*/
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+/* font-family: 'Share Tech Mono', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+/* font-family: 'Geologica', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+/*font-family: 'Teko', sans-serif;*/
+
+@font-face {
+    font-family: futura;
+    src: url(/fonts/nike/Futura\ Std\ Extra\ Bold\ Condensed\ Oblique.ttf);
+}
+
+@font-face {
+    font-family: futura-btn;
+    src: url(/fonts/nike/Futura\ Std\ Extra\ Bold.ttf);
+}
+
+
+:root {
+    --collor-01: #0D0D0D;
+    --collor-02: #111111;
+    --main-color: #215bf0;
+    --main-color2: #ff3434;
+
+    --text-color: #ffff;
+
+    /* cores botoes */
+
+    --color-button01: #215bf0;
+    --color-button02: #557ee4;
+
+    /* DARK MODE */
+
+    --color-text:black;
+    --background-color:#BDBEBF;
+    --background-color-2:#F0F0F0;
+}
+
+span {
+    color: var(--main-color);
+}
+
+/*MAIN*/
+
+header{
+    text-align: center;
+}
+
+#main-logo{
+    width: 100px;
+}
+
+body{
+    background-color: var(--collor-01);
+    color: var(--text-color);
+}
+
+.line-sep-c1 {
+    background-image: linear-gradient(90deg, var(--main-color), var(--main-color2));
+    border-style: none;
+    margin: 0 auto;
+    width: 60px;
+    height: 5px;
+    border-radius: 10px;
+}
+
+#main-certified-container {
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#main-certified-container img{
+    width: 44%;
+    margin: 2px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#button-download {
+    text-align: center;
+}
+
+button{
+    background-image: linear-gradient(90deg, var(--color-button01), var(--color-button02));
+    color: white;
+    cursor: pointer;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+@media screen and (max-width: 537px) {
+    #main-certified-container img {
+        width: 99%;
+        margin: 10px auto;
+    }
+
+    p{
+        width: 90%;
+    }
+}
+
