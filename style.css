@@ -540,7 +540,7 @@ nav {
 #container-04 p {
     font-weight: bold;
     font-size: 20px;
-    margin: 15px 0;
+    margin: 15px auto;
 }
 
 #container-04 span {
@@ -638,7 +638,7 @@ footer h1 {
 
 footer h3 {
     font-size: 20px;
-    width: 70%;
+    width: 90%;
     margin: 20px auto;
 }
 
@@ -648,7 +648,9 @@ footer a {
 }
 
 footer p {
+    text-align: center;
     font-weight: bolder;
+    width: 80%;
 }
 
 footer span {
