@@ -602,6 +602,8 @@ nav {
 .img-certificates {
     width: 90%;
     border-radius: 10px;
+    width: 330px;
+    height: 260px;
 }
 
 @media screen and (max-width: 600px) {
