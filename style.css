@@ -203,7 +203,7 @@ nav {
 
 @media screen and (max-width: 537px) {
     #container-01 {     
-        height: 700px;
+        height: 800px;
         
     }
     #content-container-01{
@@ -294,7 +294,7 @@ nav {
 
 #content-container-02 {
     margin: 50px auto;
-    width: 80%;
+    width: 90%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -385,7 +385,7 @@ nav {
     display: inline-block;
     width: 300px;
     height: 300px;
-    margin: 10px 20px;
+    margin: 10px 10px;
 }
 
 .projects-inprogress{
@@ -414,20 +414,20 @@ nav {
 }
 
 @media screen and (max-width: 759px) {
-
     .projects {
-    margin: 10px auto;
-    width: 370px;
-    height: 325px;
+        margin: 10px auto;
+        text-align: center; /* Centralizar o conteúdo interno */
+        width: 340px; /* Ajustar a largura conforme necessário */
+        height: 320px;
     }
 }
 
 @media screen and (max-width: 400px) {
-
     .projects {
-    margin: 10px auto;
-    width: 325px;
-    height: 325px;
+        margin: 20px auto; /* Centralizar verticalmente e horizontalmente */
+        width: 300px; /* Ajustar a largura conforme necessário */
+        height: 300px;
+        display: block; /* Use "block" para garantir o alinhamento correto */
     }
 }
 
@@ -527,7 +527,7 @@ nav {
 }
 
 #content-container-04 {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -600,10 +600,8 @@ nav {
 }
 
 .img-certificates {
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
-    height: 240px;
-     width: 320px;
 }
 
 @media screen and (max-width: 600px) {
